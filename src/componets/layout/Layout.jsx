@@ -11,7 +11,9 @@ export const Layout = () => {
                 <Header/>
             </header>
             <main>
+                <div className='main-container'>
                 <Outlet />
+                </div>
             </main>
             <footer>
                 <Footer />

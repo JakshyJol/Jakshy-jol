@@ -1,10 +1,9 @@
-.HomePage{
-    background: url('./../../assets/signs.png') no-repeat;
-    width: 100%;
+.section{
     display: flex;
-    flex-direction: column;
-    
+    background: url('./../../assets/signs.png') no-repeat;
+    width: 100%
 }
+
 .content{
     display: flex;
     width: 100%;
