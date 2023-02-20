@@ -1,9 +1,15 @@
 .mainCar{
     width: auto;
-    height: 80vh;
-    border: 1px solid red;
+    height: 100vh;
     background-image: url(../../../Assets//png/signs.png);
     background-size: cover;
+    background-repeat: no-repeat;
 
-    background-color: #39B645;
+    background-color: #3dbd4a;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
