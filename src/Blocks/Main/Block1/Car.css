@@ -1,0 +1,9 @@
+.mainCar{
+    width: auto;
+    height: 80vh;
+    border: 1px solid red;
+    background-image: url(../../../Assets//png/signs.png);
+    background-size: cover;
+
+    background-color: #39B645;
+}

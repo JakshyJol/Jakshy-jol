@@ -1,0 +1,15 @@
+.headerLink {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.headerLink a {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #ffffff;
+    text-decoration: none;
+}
