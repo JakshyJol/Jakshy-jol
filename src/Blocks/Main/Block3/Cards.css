@@ -1,0 +1,49 @@
+.mainCards {
+	width: auto;
+	height: 50vh;
+	background-color: #3dbd4a;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.imageRus {
+	width: 27%;
+	height: 26vh;
+	border-radius: 22px;
+	background-image: url(../../../Assets/png/imageRus.png);
+
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.imageRus, .imageBook,.imageCar p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    
+    color: #1C1B1F;
+}
+.imageCar {
+	width: 27%;
+	height: 26vh;
+	border-radius: 22px;
+	background-image: url(../../../Assets/png/imageCar.png);
+
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.imageBook {
+	width: 27%;
+	height: 26vh;
+	border-radius: 22px;
+	background-image: url(../../../Assets/png/imagebook.png);
+
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
