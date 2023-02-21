@@ -12,4 +12,6 @@
     justify-content: center;
     align-items: center;
 }
-
+.bannerCar img{
+    width: 100%;
+}

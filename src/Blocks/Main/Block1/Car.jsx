@@ -9,7 +9,7 @@ const Car = () => {
 			<div className="banner">
 				<img src={baner} alt="" />
 			</div>
-			<div>
+			<div className="bannerCar">
 				<img src={car} alt="" />
 			</div>
 		</div>
