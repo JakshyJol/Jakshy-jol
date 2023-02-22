@@ -8,6 +8,7 @@ function Header() {
 	return (
 		<div className="header">
 			<img src={logo} alt="" />
+
 			<NavHeader />
 			<NavIcon />
 		</div>
