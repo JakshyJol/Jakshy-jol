@@ -3,7 +3,7 @@ import buttonImage from '../../../Assets/png/Mask.png';
 import "./Quiz.css";
 function Quiz() {
 	return (
-		<div className="quizBlock">
+		<div className="quizBlock" id="quiz">
 			<div className="quizButtonCard">
 				<p className="quiz1Text">Проверь свои знания</p>
 				<p className="quiz2Text">

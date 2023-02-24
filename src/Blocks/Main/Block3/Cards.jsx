@@ -3,7 +3,7 @@ import React from "react";
 import "./Cards.css";
 function Cards() {
 	return (
-		<div className="mainCards">
+		<div className="mainCards" id="Cards">
 			<div className="imageRus">
 				<p>Биография автора</p>
 			</div>

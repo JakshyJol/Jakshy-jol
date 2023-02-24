@@ -4,7 +4,7 @@ import whiteBook from "../../../Assets/png/whiteBlockBook.png";
 import "./WhiteBlockBook.css";
 function WhiteBlockBook() {
 	return (
-		<div className="WhiteBlockBook">
+		<div className="WhiteBlockBook" id="WhiteBlockBook">
 			<div className="blockLeftCar">
 				<h3>
 					<b>Методичка</b>
