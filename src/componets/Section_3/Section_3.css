@@ -1,0 +1,33 @@
+.SectionThird{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+    padding-bottom: 87px;
+    align-items: center;
+    width: 88.3%;
+    margin: 0 auto;
+    margin-top: 170px;
+}
+
+.SectionThird_left p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+.SectionThird_left h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+}
+.SectionThird_left img {
+    max-width: 80%;
+    height: 18%;
+}
