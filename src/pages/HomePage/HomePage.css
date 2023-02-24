@@ -1,5 +1,5 @@
 .HomePage{
-    background: url('./../../assets/signs.png') no-repeat;
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -22,3 +22,22 @@
     align-items: center;
     justify-content: space-between;
 }
+.net{
+    display: flex;
+    width: 88.3%;
+    height: auto;
+    justify-content: space-between;  
+}
+.style{
+    display: flex;
+    width: 88.3%;
+    height: auto;
+    justify-content: space-between;  
+    background-color: white;
+}
+/* .main-container{
+    display: flex;
+    width: 88.3%;
+    height: auto;
+    justify-content: space-between;
+} */

@@ -5,7 +5,7 @@ import './../Section/Section.css'
 
 export const Section = () => {
   return (
-    <div className='Section'>
+    <div className='section'>
          <div className='content'>
         <div className='div_banner'>
           <img src={banner} alt="" />
