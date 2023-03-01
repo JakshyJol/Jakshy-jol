@@ -1,6 +1,4 @@
 import React from 'react'
-import banner from '../../assets/banner.png'
-import car from '../../assets/car.png'
 import { ModalWindow } from '../../componets/Modal/ModalWindow'
 import { Section } from '../../componets/Section/Section'
 import { Section_ } from '../../componets/Section_/Section_'
@@ -15,7 +13,7 @@ const HomePage = () => {
  
      <Section />
      <Section_2/>
-
+a
      <Section_/>
      <SectionThird/>
      <SectionFourth className="style"/>
