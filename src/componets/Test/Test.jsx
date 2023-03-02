@@ -1,17 +1,37 @@
 import React, { useState } from 'react'
+import one  from './../../assetsFromTest/1.png'
+import two  from './../../assetsFromTest/2.png'
+import three  from './../../assetsFromTest/3.png'
+import four  from './../../assetsFromTest/4.png'
+import five from './../../assetsFromTest/5.png'
+import six  from './../../assetsFromTest/6.png'
+import seven  from './../../assetsFromTest/7.png'
+import eight  from './../../assetsFromTest/8.png'
+import nine  from './../../assetsFromTest/9.png'
+import ten  from './../../assetsFromTest/10.png'
+import eleven  from './../../assetsFromTest/11.png'
+import twelve  from './../../assetsFromTest/12.jpg'
+import threeteen  from './../../assetsFromTest/13.jpg'
+import fourteen  from './../../assetsFromTest/14.jpg'
+import fiveteen  from './../../assetsFromTest/15.jpg'
+import sixteen  from './../../assetsFromTest/16.jpg'
+import seventeen  from './../../assetsFromTest/17.jpg'
+import eightteen  from './../../assetsFromTest/18.jpg'
+import nineteen  from './../../assetsFromTest/19.jpg'
+import twenty  from './../../assetsFromTest/20.jpg'
+
 import './Test.css'
-import  one from './../../assetsFromTest/1.png'
 
 
 
-export const Test = () => {
+
+export const Test = (props) => {
 
 const questions = [
   {
     questionText: 'По какой траектории Вам разрешено выполнить разворот?',
-    img:  `./../../assetsFromTest/1.png`,
+    img:  one,
     answerOptions: [
-      
         {answerText: 'Только по А.', isCorrect: true},
         {answerText: 'Только по Б.', isCorrect: false},
         {answerText: 'По любой из указанных.', isCorrect: false},
@@ -20,7 +40,7 @@ const questions = [
   },
   {
     questionText: 'С какой скоростью Вы можете продолжить движение вне населенного пункта по левой полосе на легковом автомобиле?',
-    img: './../../assetsFromTest/1.png',
+    img: two,
     answerOptions: [
       
         {answerText: 'Не более 50 км/ч', isCorrect: false},
@@ -31,7 +51,7 @@ const questions = [
   },
   {
     questionText: 'Можно ли водителю легкового автомобиля выполнить обгон грузовых автомобилей вне населенного пункта по такой траектории?',
-    img: "",
+    img: three,
     answerOptions: [
       
         {answerText: 'Можно.', isCorrect: true},
@@ -42,7 +62,7 @@ const questions = [
   },
   {
     questionText: 'В каком случае водителю разрешается поставить автомобиль на стоянку в указанном месте?',
-    img: "",
+    img: four,
     answerOptions: [
       
         {answerText: 'Только если расстояние до сплошной линии разметки не менее 3 м.', isCorrect: false},
@@ -53,7 +73,7 @@ const questions = [
   },
   {
     questionText: 'Кому Вы обязаны уступить дорогу при повороте налево?',
-    img: "",
+    img: five,
     answerOptions: [
       
         {answerText: 'Только автобусу.', isCorrect: false},
@@ -64,7 +84,7 @@ const questions = [
   },
   {
     questionText: 'Сколько полос для движения имеет данная дорога?',
-    img: "",
+    img: six,
     answerOptions: [
       
         {answerText: 'Две.', isCorrect: false},
@@ -74,8 +94,8 @@ const questions = [
     ]
   },
   {
-    questionText: '. Можно ли Вам въехать на мост первым?',
-    img: "",
+    questionText: 'Можно ли Вам въехать на мост первым?',
+    img: seven,
     answerOptions: [
       
         {answerText: 'Можно.', isCorrect: true},
@@ -86,7 +106,7 @@ const questions = [
   },
   {
     questionText: 'Что запрещено в зоне действия этого знака?',
-    img: "",
+    img: eight,
     answerOptions: [
       
         {answerText: 'Движение любых транспортных средств.', isCorrect: false},
@@ -97,7 +117,7 @@ const questions = [
   },
   {
     questionText: 'Поднятая вверх рука водителя легкового автомобиля является сигналом, информирующим Вас о его намерении:',
-    img: "",
+    img: nine,
     answerOptions: [
       
         {answerText: 'Повернуть направо.', isCorrect: false},
@@ -108,7 +128,7 @@ const questions = [
   },
   {
     questionText: 'Двигаясь по левой полосе, водитель намерен перестроиться на правую. На каком из рисунков показана ситуация, в которой он обязан уступить дорогу?',
-    img: "",
+    img: ten,
     answerOptions: [
       
         {answerText: 'На левом.', isCorrect: false},
@@ -119,7 +139,7 @@ const questions = [
   },
   {
     questionText: 'Можно ли Вам выполнить разворот в этом месте?',
-    img: "",
+    img: eleven,
     answerOptions: [
       
         {answerText: 'Можно.', isCorrect: true},
@@ -130,7 +150,7 @@ const questions = [
   },
   {
     questionText: 'Вы можете начать обгон:',
-    img: "",
+    img: twelve,
     answerOptions: [
       
        { answerText: 'На переезде.', isCorrect: false},
@@ -141,7 +161,7 @@ const questions = [
   },
   {
     questionText: 'По какой траектории Вам можно выполнить поворот налево?',
-    img: "",
+    img: threeteen,
     answerOptions: [
       
         {answerText: 'Только по А.', isCorrect: false},
@@ -152,7 +172,7 @@ const questions = [
   },
   {
     questionText: 'Вы намерены повернуть направо. Можете ли Вы приступить к    повороту?',
-    img: "",
+    img: fourteen,
     answerOptions: [
       
         {answerText: 'Можете.', isCorrect: false},
@@ -163,7 +183,7 @@ const questions = [
   },
   {
     questionText: 'Сколько пересечений проезжих частей имеет этот перекресток?',
-    img: "",
+    img: fiveteen,
     answerOptions: [
       
         {answerText: 'Одно. ', isCorrect: false},
@@ -174,7 +194,7 @@ const questions = [
   },
   {
     questionText: 'Эти знаки обязывают соблюдать дистанцию:',
-    img: "",
+    img: sixteen,
     answerOptions: [
       
         {answerText: 'Менее 70 м на протяжении 100 м.', isCorrect: false},
@@ -185,7 +205,7 @@ const questions = [
   },
   {
     questionText: 'В каких направлениях вам разрешено продолжить движение?',
-    img: "",
+    img: seventeen,
     answerOptions: [
       
         {answerText: 'Только прямо', isCorrect: false},
@@ -196,7 +216,7 @@ const questions = [
   },
   {
     questionText: 'На каком расстоянии от знака Вам разрешено поставить автомобиль на стоянку?',
-    img: "",
+    img: eightteen,
     answerOptions: [
       
         {answerText: 'Не менее 5 м. ', isCorrect: false},
@@ -207,10 +227,10 @@ const questions = [
   },
   {
     questionText: 'Эти знаки предупреждают вас:',
-    img: "",
+    img: nineteen,
     answerOptions: [
       
-        {answerText: 'О приближении к железнодорожному переезду с тремя путями.', isCorrect: false},
+        {answerText: 'O приближении к железнодорожному переезду с тремя путями.', isCorrect: false},
         {answerText: 'О наличии через 150300 м железнодорожного переезда без шлагбаума.', isCorrect: true},
         {answerText: 'О наличии через 50100 м железнодорожного переезда.', isCorrect: false},
       
@@ -218,7 +238,7 @@ const questions = [
   },
   {
     questionText: 'Разрешено ли Вам поставить автомобиль на стоянку в этом месте?',
-    img: "",
+    img: twenty,
     answerOptions: [
       
         {answerText: 'Разрешено.', isCorrect: true},
@@ -252,11 +272,15 @@ const [showScore, setShowScore] = useState(false)
   }
 
 
-
+  const porcentage = Math.round(currentQuestion / questions.length * 100)
+  console.log(porcentage)
 
   return (
     <div className='test'>
-      
+     
+      <div className='style__hover'>
+
+      <p onClick={props.handelClick}  className='btn_close'>&times;</p>
 
 {
   showScore ? 
@@ -268,33 +292,38 @@ const [showScore, setShowScore] = useState(false)
   <button onClick={refresh}>Повторить</button>
   </div> 
 
-  :
+:
 
-  <div className='quizz'>
-  <div className='question__section'>
-    <div className='question__count'>
-      <span>Вопрос {currentQuestion + 1}</span>/ {questions.length}
+  <div className='Contant_all'>
+     <div className='progress'>
+        <div className='loading' style={{width: `${porcentage}%`}}></div>
+      </div>
+    <div className='question_number'>  
+    <span>Вопрос {currentQuestion + 1}</span>/ {questions.length}
     </div>
     <div>
-      
-    </div>
-    <div className='question__text'>
-      <h1>
+    <h1>
       {questions[currentQuestion].questionText}
       </h1>
       </div>
-        <img src= {questions.img} />
-  </div>
   <div className="answer__section">
-  {questions[currentQuestion].answerOptions.map(item=> (
-  <button onClick={()=> handeleAnswerOptionClick(item.isCorrect)}>{item.answerText}</button>))}
-
+  {questions[currentQuestion].answerOptions.map(item=> {
+    return(
+      <div className='test__input'>
+        <button onClick={()=> handeleAnswerOptionClick(item.isCorrect)}>{item.answerText}</button>
+      </div>
+)})}
   </div>
-</div>      
-}
+    <div className='test_img'>
+      <img src={questions[currentQuestion].img} alt="" />
+    </div>
+  </div>
 
-      
-            
+
+
+
+}      
+    </div>
     </div>
   )
 }

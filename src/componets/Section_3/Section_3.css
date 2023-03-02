@@ -30,4 +30,5 @@
 .SectionThird_left img {
     max-width: 80%;
     height: 18%;
+    transition: all 0.5s ease;
 }

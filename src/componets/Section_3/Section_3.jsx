@@ -7,10 +7,13 @@ import { Test } from '../Test/Test'
 export const SectionThird = () => {
 
   const [openModal, setOpenModal] = useState(false)
+  const handelClick = () =>{
+setOpenModal(false)
+  }
 
   return (
     <div className='SectionThird'>
-      {openModal && <Test/>}
+      {openModal && <Test handelClick={handelClick}/>}
         <div className='SectionThird_left'>
             <h2>Проверь свои знания</h2>
             <p>Подготовься к сдаче экзаменов <br/>онлайн с помощью тренировок</p>

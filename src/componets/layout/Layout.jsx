@@ -7,7 +7,7 @@ import './Layout.css'
 export const Layout = () => {
     return (
         <div className='page'>
-            <header>
+            <header >
                 <Header/>
             </header>
             <main>

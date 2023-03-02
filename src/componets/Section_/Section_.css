@@ -21,10 +21,12 @@
     border-radius: 20px;
 }
 .card_bio p {
-    
-    text-align: center;
     display: flex;
-    width: 60%;
-    font-size: 40px;
+    justify-content: center; 
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
 }

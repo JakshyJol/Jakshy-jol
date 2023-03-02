@@ -38,7 +38,7 @@ const handelClick = () =>{
           </div>
           <div  className='three_modal'>
             <div onClick={()=>setIsOpenThree(true)} className='card_bio' >
-              <p>Биография автора</p>
+              <p>Методическое  пособие</p>
             </div>
           </div>
     </div>

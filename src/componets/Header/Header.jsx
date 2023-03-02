@@ -12,7 +12,7 @@ export const Header = () => {
     <img src={logo} alt="" />
       </div>
         <div className='contant_header'>
-            <Link>Главная</Link>
+            <Link to="#">Главная</Link>
             <Link>Онлайн тест</Link>
             <Link>Об авторе</Link>
             <Link>Методичка</Link>

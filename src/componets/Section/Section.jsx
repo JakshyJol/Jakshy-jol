@@ -1,6 +1,6 @@
 import React from 'react'
 import banner from '../../assets/banner.png'
-import car from '../../assets/car.png'
+import car from '../../assets/Car.png'
 import './../Section/Section.css'
 
 export const Section = () => {

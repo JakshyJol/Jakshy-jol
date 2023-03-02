@@ -1,7 +1,4 @@
 import React from 'react'
-import banner from '../../assets/banner.png'
-import car from '../../assets/car.png'
-import { ModalWindow } from '../../componets/Modal/ModalWindow'
 import { Section } from '../../componets/Section/Section'
 import { Section_ } from '../../componets/Section_/Section_'
 import { Section_2 } from '../../componets/Section_2/Section_2'
