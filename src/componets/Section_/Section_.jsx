@@ -6,7 +6,7 @@ import { ModalWindow_3 } from '../Modal_Three/ModalWindow_3'
 import './Section_.css'
 
 
-export const Section_ = () => {
+export const Section_ = ({myRef}) => {
    
 const [isOpen, setIsOpen] = useState(false)
 const [isOpenSecond, setIsOpenSecond] = useState(false)
@@ -33,7 +33,7 @@ const handelClick = () =>{
           
           <div  className='second_modal'>
             <div onClick={()=>setIsOpenSecond(true)} className='card_bio' >
-              <p>Записаться на практику</p>
+              <p ref={myRef}>Записаться на практику</p>
             </div>
           </div>
           <div  className='three_modal'>

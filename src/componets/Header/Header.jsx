@@ -13,7 +13,7 @@ export const Header = () => {
       </div>
         <div className='contant_header'>
             <Link to="#">Главная</Link>
-            <Link>Онлайн тест</Link>
+            <Link >Онлайн тест</Link>
             <Link>Об авторе</Link>
             <Link>Методичка</Link>
         </div>
