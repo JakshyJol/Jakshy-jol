@@ -6,12 +6,12 @@ import './../Section/Section.css'
 export const Section = () => {
   return (
     <div className='section'>
-         <div className='content'>
+      <div className='content'>
         <div className='div_banner'>
           <img src={banner} alt="" />
         </div>
         <div className='div_car'>
-        <img src={car}/>
+          <img src={car} />
         </div>
       </div>
     </div>

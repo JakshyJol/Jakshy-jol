@@ -5,6 +5,7 @@ import whatsapp from '../../assets/whats.png'
 import kg from '../../assets/kg.png'
 import logo from '../../assets/logo.png'
 import '../Header/Header.css'
+
 export const Header = () => {
   return (
     <div className='header'>
@@ -12,7 +13,7 @@ export const Header = () => {
     <img src={logo} alt="" />
       </div>
         <div className='contant_header'>
-            <Link to="#">Главная</Link>
+            <Link to="/">Главная</Link>
             <Link >Онлайн тест</Link>
             <Link>Об авторе</Link>
             <Link>Методичка</Link>

@@ -9,12 +9,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        {/* <Route path="/" element={<Layout />}> */}
           <Route index element={<HomePage />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/test" element={<Test />} />
           <Route path="/ModalWindow" element={<ModalWindow />} />
-        {/* </Route> */}
       </Routes>
     </div>
   );

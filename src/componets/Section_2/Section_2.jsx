@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './Section_2.css'
 import document from './../../assets/document.png'
 import btnWhatspp from './../../assets/Btn_whatspp.png'

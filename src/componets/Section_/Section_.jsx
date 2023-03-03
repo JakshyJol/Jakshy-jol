@@ -6,43 +6,43 @@ import { ModalWindow_3 } from '../Modal_Three/ModalWindow_3'
 import './Section_.css'
 
 
-export const Section_ = ({myRef}) => {
-   
-const [isOpen, setIsOpen] = useState(false)
-const [isOpenSecond, setIsOpenSecond] = useState(false)
-const [isOpenThree, setIsOpenThree] = useState(false)
+export const Section_ = ({ myRef }) => {
 
-const handelClick = () =>{
-  setIsOpen(false)
-  setIsOpenSecond(false)
-  setIsOpenThree(false)
-}
+  const [isOpen, setIsOpen] = useState(false)
+  const [isOpenSecond, setIsOpenSecond] = useState(false)
+  const [isOpenThree, setIsOpenThree] = useState(false)
+
+  const handelClick = () => {
+    setIsOpen(false)
+    setIsOpenSecond(false)
+    setIsOpenThree(false)
+  }
 
   return (
     <div className='section_two'>
-      { isOpen && <ModalWindow handelCloseClick={handelClick}/>}
-      { isOpenSecond && <ModalWindow_2 handelCloseClick={handelClick}/>}
-      { isOpenThree && <ModalWindow_3 handelCloseClick={handelClick}/>}
-      
-    <div className='card'> 
-          <div  className='first_modal'>
-            <div  onClick={()=>setIsOpen(true)} className='card_bio' >
-              <p>Биография автора</p>
-            </div>
+      {isOpen && <ModalWindow handelCloseClick={handelClick} />}
+      {isOpenSecond && <ModalWindow_2 handelCloseClick={handelClick} />}
+      {isOpenThree && <ModalWindow_3 handelCloseClick={handelClick} />}
+
+      <div className='card'>
+        <div className='first_modal'>
+          <div onClick={() => setIsOpen(true)} className='card_bio' >
+            <p>Биография автора</p>
           </div>
-          
-          <div  className='second_modal'>
-            <div onClick={()=>setIsOpenSecond(true)} className='card_bio' >
-              <p ref={myRef}>Записаться на практику</p>
-            </div>
+        </div>
+
+        <div className='second_modal'>
+          <div onClick={() => setIsOpenSecond(true)} className='card_bio' >
+            <p ref={myRef}>Записаться на практику</p>
           </div>
-          <div  className='three_modal'>
-            <div onClick={()=>setIsOpenThree(true)} className='card_bio' >
-              <p>Методическое  пособие</p>
-            </div>
+        </div>
+        <div className='three_modal'>
+          <div onClick={() => setIsOpenThree(true)} className='card_bio' >
+            <p>Методическое  пособие</p>
           </div>
-    </div>
-   
+        </div>
+      </div>
+
     </div>
   )
 }

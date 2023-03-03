@@ -21,11 +21,11 @@ export const Footer = () => {
       </div>
 
       <div className='footer_right'>
-          <a href="">0705 (555) 265 747</a>
+          <a href="tel:0705555265747">0705 (555) 265 747</a>
           <img src={whats} alt=""  className='logo_footer'/>
           <img src={LogoInstogram} alt="" className='logo_footer'/>
           <div>
-          <a href="">0500 (550) 431 430</a>
+          <a href="tel:0500550431430">0500 (550) 431 430</a>
           <p>ruslanjacshyiykov65@gmail.com</p>
           </div>
       </div>
