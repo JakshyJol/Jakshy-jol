@@ -4,7 +4,7 @@
 	background-color: #3dbd4a;
 
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 .BlockLogo {
@@ -36,8 +36,8 @@
 .numberPhone {
 	display: flex;
 	flex-direction: column;
-	width: 56%;
-	gap: 5px;
+	/* width: 100%; */
+	gap: 10px;
 }
 .number {
 	font-family: "Montserrat";
@@ -59,13 +59,16 @@
 	text-decoration: none;
 	cursor: pointer;
 	position: relative;
-	right: 115px;
+	right: 80px;
+	top: 40px;
+	gap: 30px;
 }
 .socialNetworkImg {
 	display: flex;
 	justify-content: space-between;
-	width: 36%;
+	width: 10%;
 	height: 6vh;
+	gap: 20px;
 }
 @media (width: 360px) {
 	.BlockFooter {
@@ -117,5 +120,31 @@
 		padding: 10px 10px 10px 10px;
 		position: relative;
 		left: 1px;
+	}
+}
+@media (width: 800px) {
+	.NumberLink{
+		flex-direction: column;
+	}
+	.BlockFooter {
+		display: flex;
+		justify-content: space-around;
+	}
+	.numberPhone{
+		font-size: 16px;
+		line-height: 10px;
+		position: relative;
+		left: 20px;
+		width: 300px;
+	}
+	.socialNetworkImg{
+		position: relative;
+		left: 15px;
+		gap: 20px;
+	}
+	.gmail{
+		position: relative;
+		top: 90px;
+		right: 140px;
 	}
 }

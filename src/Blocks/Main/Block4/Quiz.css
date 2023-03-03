@@ -122,3 +122,20 @@
 		bottom: 30px;
 	}
 }
+@media (width: 800px) {
+
+	.quizButton img{
+		width: 80px;
+		height: 80px;
+		position: relative;
+		left: -10px;
+		bottom: 40px;
+	}
+	.quizButton button{
+		width: 70em;
+		height: 8vh;
+		position: relative;
+		left: -40px;
+		bottom: 40px;
+	}
+}

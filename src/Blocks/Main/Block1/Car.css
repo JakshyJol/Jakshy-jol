@@ -45,7 +45,6 @@
 }
 @media (width: 800px) {
     .mainCar {
-        width: 100vw;
 		height: 60vh;
         background-size: cover;
 		display: flex;

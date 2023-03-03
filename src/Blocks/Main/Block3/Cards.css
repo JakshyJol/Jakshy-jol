@@ -64,3 +64,9 @@
 		font-size: 20px;
 	}
 }
+@media (width: 800px){
+	.imageRus, .imageBook,.imageCar p {
+		font-size: 30px;
+		line-height: 40px;
+	}
+}
