@@ -7,7 +7,7 @@ import "./Header.css";
 
 function Header() {
 	return (
-		<div className="header">
+		<div className="header1">
 			<Link to="header" activeClass="active" spy={false} smooth={true}>
 				<img className="hedaerImg" src={logo} alt="" />
 			</Link>

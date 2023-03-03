@@ -24,7 +24,6 @@ function BlockFooter() {
 				<p>Codifylab</p>
 				<p>7 мкр, 23 стр, дом Атлант ул. Исанова 105/3</p>
 			</div>
-			<div className="BlockLink">
 				<div className="NumberLink">
 					<div className="numberPhone">
 						<a className="number" href="tel: 0705265747">
@@ -51,7 +50,6 @@ function BlockFooter() {
 				</div>
 				<a className="gmail" href="mailto: ruslanjacshyiykov65@gmail.com">ruslanjacshyiykov65@gmail.com</a>
 			</div>
-		</div>
 	);
 }
 export default BlockFooter;

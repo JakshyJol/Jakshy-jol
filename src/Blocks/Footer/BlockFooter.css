@@ -25,25 +25,13 @@
 	padding: 5px 0px 5px 0px;
 	color: #ffffff;
 }
-.BlockLink {
-	width: 20%;
-	height: 20vh;
-}
-/* .BlockLink a {
-	width: 100%;
-	height: 10vh;
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 24px;
-	color: #ffffff;
-} */
 
 .NumberLink {
 	display: flex;
 	justify-content: space-between;
-    padding: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+	width: 20%;
+	height: 20vh;
 }
 .numberPhone {
 	display: flex;
@@ -61,7 +49,7 @@
 	text-decoration: none;
 	cursor: pointer;
 }
-.gmail{
+.gmail {
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 400;
@@ -70,9 +58,64 @@
 	color: #ffffff;
 	text-decoration: none;
 	cursor: pointer;
+	position: relative;
+	right: 115px;
 }
 .socialNetworkImg {
 	display: flex;
 	justify-content: space-between;
 	width: 36%;
+	height: 6vh;
+}
+@media (width: 360px) {
+	.BlockFooter {
+		width: 99vw;
+		height: 50vh;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+	.BlockLogo {
+		width: 90vw;
+		height: 26vh;
+		display: flex;
+		align-items: center;
+	}
+	.BlockLogo img {
+		width: 50px;
+		height: 50px;
+	}
+	.BlockInfo {
+		width: 90vw;
+		height: 30vh;
+	}
+	.BlockInfo p {
+		font-size: 12px;
+		line-height: 10px;
+	}
+	.NumberLink {
+		width: 90vw;
+		height: 26vh;
+		flex-direction: column;
+	}
+	.numberPhone {
+		width: 90vw;
+			flex-direction: row;
+	}
+	.numberPhone a {
+		font-size: 10px;
+		padding-left: 40px;
+	}
+	.socialNetworkImg {
+		display: flex;
+		justify-content: space-evenly;
+		width: 80vw;
+	}
+	.gmail {
+		font-size: 14px;
+		line-height: 24px;
+		padding: 10px 10px 10px 10px;
+		position: relative;
+		left: 1px;
+	}
 }

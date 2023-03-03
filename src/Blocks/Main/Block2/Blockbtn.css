@@ -1,5 +1,5 @@
 .blockBtn {
-	width: auto;
+	width: 100%;
 	height: 80vh;
 	background-color: #3dbd4a;
 	display: flex;
@@ -43,10 +43,10 @@
 	background: linear-gradient(180deg, #fcfcfc 0%, #d5d5d5 100%, #d9d9d9 100%);
 	border-radius: 8px;
 
-	position: absolute;
+	position: relative;
 	width: 336px;
 	height: 72px;
-	right: 260px;
+	right: 80px;
 
 	font-family: "Montserrat";
 	font-style: normal;
@@ -67,7 +67,8 @@
 
 @media (width: 360px){
 	.blockBtn {
-		height: 70vh;
+		width: 100vw;
+		height: 80vh;
 		display: flex;
 		flex-direction: column-reverse;
 	}
@@ -80,7 +81,6 @@
 		line-height: 25px;
 	}
 	.btnCallText {
-		width: 300px;
 		height: 6vh;
 	}
 	.btnCallText img{
@@ -94,13 +94,15 @@
 		right: 32px;
 		bottom: 22px;
 		width: 70%;
-		height: 8vh;
+		height: 10vh;
 		font-size: 20px;
 	}
 	.btnCallText button:hover{
 		font-size: 22px;
 	}
 	.discountBanner {
+		position: relative;
+		bottom: 10px;
 		width: 80%;
 		height: 80%;
 		padding: 0%;

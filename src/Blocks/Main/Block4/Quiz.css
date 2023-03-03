@@ -1,5 +1,5 @@
 .quizBlock {
-	width: auto;
+	width: 100%;
 	height: 80vh;
 	background-color: #3dbd4a;
 
@@ -77,4 +77,48 @@
 	height: 54vh;
 	background-image: url(../../../Assets/png/19333426\ 2.png);
 	border-radius: 15px;
+}
+@media (width: 360px) {
+	.quizBlock {
+		width: 100vw;
+		height: 120vh;
+		flex-direction: column-reverse;
+		/* padding-top: 40px; */
+	}
+	.quizImage {
+		width: 90vw;
+		height: 54vh;
+	}
+	.quiz1Text {
+		font-size: 36px;
+		margin: 0%;
+	}
+	.quiz2Text{
+		font-size: 20px;
+
+	}
+	.quizButtonCard {
+		display: flex;
+		justify-content: flex-start;
+		width: 90vw;
+		height: 50vh;
+	}
+	.quizButton{
+		/* border: 1px solid red; */
+		width: 90vw;
+		height: 10vh;
+	}
+	.quizButton img{
+		position: relative;
+		left: -5px;
+		bottom: 30px;
+	}
+	.quizButton button{
+		width: 70vw;
+		height: 12vh;
+		font-size: 26px;
+		position: relative;
+		left: -40px;
+		bottom: 30px;
+	}
 }

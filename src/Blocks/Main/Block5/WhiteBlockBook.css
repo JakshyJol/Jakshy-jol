@@ -34,3 +34,30 @@
 	height: 42vh;
     padding: 0px 20px 0px 20px;
 }
+@media (width: 360px) {
+	.WhiteBlockBook {
+		width: 100vw;
+		height: 136vh;
+		flex-direction: column;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;;
+		display: flex;
+		justify-content: flex-start;
+		gap: 20px;
+	}
+	.blockLeftCar {
+		width: 90vw;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;;
+	}
+	.blockLeftCar h3 {
+		font-size: 25px;
+	}
+	.blockLeftCar p{
+		font-size: 15px;
+	}
+	.blockRightBook img{
+		width: 80vw;
+	}
+
+}
