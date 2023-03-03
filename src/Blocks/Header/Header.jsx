@@ -9,7 +9,7 @@ function Header() {
 	return (
 		<div className="header">
 			<Link to="header" activeClass="active" spy={false} smooth={true}>
-				<img src={logo} alt="" />
+				<img className="hedaerImg" src={logo} alt="" />
 			</Link>
 			<NavHeader />
 			<NavIcon />

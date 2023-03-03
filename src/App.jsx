@@ -9,13 +9,13 @@ import "./App.css";
 function App() {
 	return (
 		<>
-			<Header />
-			<Car />
+			{/* <Header /> */}
+			{/* <Car /> */}
 			<Blockbtn />
-			<Cards />
-			<Quiz />
-			<WhiteBlockBook />
-			<BlockFooter />
+			{/* <Cards /> */}
+			{/* <Quiz /> */}
+			{/* <WhiteBlockBook /> */}
+			{/* <BlockFooter /> */}
 		</>
 	);
 }

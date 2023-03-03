@@ -1,13 +1,35 @@
-.header{
-    width: 100%;
-    height: 17vh;
-    background-color: #3dbd4a;
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.header {
+	width: 100%;
+	height: 17vh;
+	background-color: #3dbd4a;
 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 1.5px solid white;
 }
-.header img{
-    cursor: pointer;
+.header img {
+	cursor: pointer;
+}
+@media (width: 800px) {
+    .header {
+		height: 10h;
+		display: flex;
+		gap: 2px;
+		justify-content: space-around;
+	}
+    .hedaerImg{
+        cursor: pointer;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (width: 360px) {
+	.header {
+		height: 80vh;
+		display: flex;
+		gap: 2px;
+		flex-direction: column;
+	}
 }
