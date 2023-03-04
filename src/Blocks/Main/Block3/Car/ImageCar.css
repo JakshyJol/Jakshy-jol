@@ -1,0 +1,16 @@
+.modal_window{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal_window img {
+    width: 40%;
+    height: 70vh;
+}
+.modal_right{
+    border: 1px solid red;
+    width: 40%;
+    height: 70vh;
+}

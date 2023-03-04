@@ -1,7 +1,10 @@
-import React from "react";
+import React , {useState}from "react";
 import buttonImage from '../../../Assets/png/Mask.png';
+import Modal from "../../../Modal/Modal";
+import Test from '../../../Components/Test/Test'
 import "./Quiz.css";
 function Quiz() {
+	const [modalActive, setModalActive] = useState(false);
 	return (
 		<div className="quizBlock" id="quiz">
 			<div className="quizButtonCard">
@@ -11,10 +14,13 @@ function Quiz() {
 				</p>
 				<div className="quizButton">
 					<img src={buttonImage} alt="" />
-					<button>Пройти тест</button>
+					<button onClick={() => setModalActive(true)}>Пройти тест</button>
 				</div>
 			</div>
 			<div className="quizImage"></div>
+			<Modal active={modalActive} setActive={setModalActive}>
+				<Test />
+			</Modal>
 		</div>
 	);
 }

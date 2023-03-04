@@ -76,6 +76,7 @@
 	width: 37%;
 	height: 54vh;
 	background-image: url(../../../Assets/png/19333426\ 2.png);
+	background-size: cover;
 	border-radius: 15px;
 }
 @media (width: 360px) {

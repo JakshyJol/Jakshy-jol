@@ -14,20 +14,21 @@
 	border-radius: 22px;
 	background-image: url(../../../Assets/png/imageRus.png);
 
-    display: flex;
+	display: flex;
 	justify-content: space-around;
 	align-items: center;
-
 }
-.imageRus, .imageBook,.imageCar p {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 40px;
-    
-    text-align: center;
-    color: #1C1B1F;
+.imageRus,
+.imageBook,
+.imageCar p {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+
+	text-align: center;
+	color: #1c1b1f;
 }
 .imageCar {
 	width: 27%;
@@ -35,7 +36,7 @@
 	border-radius: 22px;
 	background-image: url(../../../Assets/png/imageCar.png);
 
-    display: flex;
+	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -45,27 +46,34 @@
 	border-radius: 22px;
 	background-image: url(../../../Assets/png/imagebook.png);
 
-    display: flex;
+	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-@media (width: 360px){
+
+
+@media (width: 360px) {
 	.mainCards {
 		width: 100vw;
 		height: 100vh;
 		background-color: #3dbd4a;
 		flex-direction: column;
-
 	}
-	.imageRus, .imageBook,.imageCar{
+	.imageRus,
+	.imageBook,
+	.imageCar {
 		width: 90vw;
 	}
-	.imageRus, .imageBook,.imageCar p{
+	.imageRus,
+	.imageBook,
+	.imageCar p {
 		font-size: 20px;
 	}
 }
-@media (width: 800px){
-	.imageRus, .imageBook,.imageCar p {
+@media (width: 800px) {
+	.imageRus,
+	.imageBook,
+	.imageCar p {
 		font-size: 30px;
 		line-height: 40px;
 	}
