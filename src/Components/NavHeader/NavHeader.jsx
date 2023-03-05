@@ -15,7 +15,7 @@ export const NavHeader = () => {
 				Онлайн тест
 			</Link>
 			<Link activeClass="active" to="Cards" spy={true} smooth={true}>
-				{t("About the author")}
+				{t("Abouttheauthor")}
 			</Link>
 			<Link
 				activeClass="active"
