@@ -1,32 +1,42 @@
-.modal_window {
+.modal_windowCar {
 	width: 80vw;
 	height: 76vh;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
-.modal_window img {
+.modal_windowCar img {
 	width: 40%;
 	height: 70vh;
 }
-.modal_right {
+.modal_rightCar {
 	width: 40%;
 	height: 70vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-direction: column;
+	gap: 20px;
 }
-.modal_right h1 {
+.modal_rightCar h1 {
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 600;
 	font-size: 36px;
 	line-height: 44px;
 }
-.modal_right p {
+.modal_rightCar p {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 20px;
+}
+.modal_rightCar a {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	color: black;
+	text-decoration: none;
 }
