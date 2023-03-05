@@ -14,7 +14,9 @@ function Blockbtn() {
 				</p>
 				<div className="btnCallText">
 					<img src={phone} alt="" />
-					<button>Приобрести</button>
+					<a href="tel: 0705 265 747"><button>Приобрести</button></a>
+					{/* <a href="tel: 0705 265 747">0705 265 747</a> */}
+					{/* <button>Приобрести</button> */}
 				</div>
 			</div>
 		</div>

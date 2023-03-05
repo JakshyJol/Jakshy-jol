@@ -17,21 +17,21 @@
 }
 
 .quiz1Text {
-	font-family: "Montserrat";
+	font-family: "Montserrat" , sans-serif;	
 	font-style: normal;
 	font-weight: 500;
-	font-size: 40px;
-	line-height: 49px;
+	font-size: 36px;
+	line-height: 39px;
 
 	color: #ffffff;
 	text-shadow: 4px 4px 4px rgba(28, 27, 31, 0.05);
 }
 .quiz2Text {
-	font-family: "Montserrat";
+	font-family: "Montserrat" , sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 24px;
-	line-height: 29px;
+	font-size: 16px;
+	line-height: 18px;
 
 	color: #ffffff;
 }
@@ -59,11 +59,11 @@
     position: absolute;
     left: 120px;
 
-	font-family: "Montserrat";
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 32px;
-	line-height: 39px;
+	font-size: 28px;
+	line-height: 29px;
 	color: #1c1b1f;
     z-index: 10;
     border: none;

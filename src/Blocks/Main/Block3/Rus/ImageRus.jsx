@@ -5,7 +5,7 @@ import modalWindowOne from "../../../../Assets/png/aftor.png";
 import "./ImageRus.css";
 
 function ImageRus() {
-	const [modalActive, setModalActive] = useState(true);
+	const [modalActive, setModalActive] = useState(false);
 	return (
 		<>
 			<div className="imageRus" onClick={() => setModalActive(true)}>
@@ -14,7 +14,6 @@ function ImageRus() {
 			<Modal active={modalActive} setActive={setModalActive}>
 				<div className="modal_window">
 					<img src={modalWindowOne} alt="" />
-
 					<div className="modal_right">
 						<h1>Автор методички</h1>
 						<p>

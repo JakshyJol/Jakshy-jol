@@ -1,7 +1,7 @@
 import React , {useState}from "react";
 import buttonImage from '../../../Assets/png/Mask.png';
 import Modal from "../../../Modal/Modal";
-import Test from '../../../Components/Test/Test'
+// import Test from '../../../Components/Test/Test'
 import "./Quiz.css";
 function Quiz() {
 	const [modalActive, setModalActive] = useState(false);
@@ -19,7 +19,7 @@ function Quiz() {
 			</div>
 			<div className="quizImage"></div>
 			<Modal active={modalActive} setActive={setModalActive}>
-				<Test />
+				{/* <Test /> */}
 			</Modal>
 		</div>
 	);

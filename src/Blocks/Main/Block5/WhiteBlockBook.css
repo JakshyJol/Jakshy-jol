@@ -13,19 +13,19 @@
     padding: 0px 20px 0px 20px;
 }
 .blockLeftCar h3 {
-	font-family: "Montserrat";
+	font-family: "Montserrat" , sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 40px;
-	line-height: 45px;
+	font-size: 36px;
+	line-height: 40px;
     padding: 0px 20px 0px 20px;
 }
 .blockLeftCar p {
-	font-family: "Montserrat";
+	font-family: "Montserrat" , sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
-	line-height: 29px;
+	font-size: 18px;
+	line-height: 26px;
 	text-align: center;
     padding: 0px 20px 0px 20px;
 }

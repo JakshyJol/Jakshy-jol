@@ -21,10 +21,10 @@
 .imageRus,
 .imageBook,
 .imageCar p {
-	font-family: "Montserrat";
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 40px;
 
 	text-align: center;

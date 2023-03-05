@@ -10,7 +10,7 @@ function BlockFooter() {
 		<div className="BlockFooter">
 			<div className="BlockLogo">
 				<Link
-					to="header"
+					to="header1"
 					activeClass="active"
 					spy={false}
 					smooth={true}
