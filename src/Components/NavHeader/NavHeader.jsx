@@ -9,13 +9,13 @@ export const NavHeader = () => {
 	return (
 		<nav className="headerLinkText">
 			<Link activeClass="active" to="mainCar" spy={false} smooth={true}>
-				{t("home")}
+			Главная
 			</Link>
 			<Link activeClass="active" to="quiz" spy={true} smooth={true}>
 				Онлайн тест
 			</Link>
 			<Link activeClass="active" to="Cards" spy={true} smooth={true}>
-				{t("Abouttheauthor")}
+			О авторе
 			</Link>
 			<Link
 				activeClass="active"
@@ -23,7 +23,7 @@ export const NavHeader = () => {
 				spy={true}
 				smooth={true}
 			>
-				{t("Manual")}
+				Mетодичка
 			</Link>
 		</nav>
 	);
