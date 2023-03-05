@@ -1,28 +1,27 @@
 import React, { useState } from "react";
-// import one from "../../../assetsFromTest/1.png";
-// import two from "../../../assetsFromTest/2.png";
-// import three from "../../../assetsFromTest/3.png";
-// import four from "../../../assetsFromTest/4.png";
-// import five from "../../../assetsFromTest/5.png";
-// import six from "../../../assetsFromTest/6.png";
-// import seven from "../../../assetsFromTest/7.png";
-// import eight from "../../../assetsFromTest/8.png";
-// import nine from "../../../assetsFromTest/9.png";
-// import ten from "../../../assetsFromTest/10.png";
-// import eleven from "../../../assetsFromTest/11.png";
-// import twelve from "../../../assetsFromTest/12.jpg";
-// import threeteen from "../../../assetsFromTest/13.jpg";
-// import fourteen from "../../../assetsFromTest/14.jpg";
-// import fiveteen from "../../../assetsFromTest/15.jpg";
-// import sixteen from "../../../assetsFromTest/16.jpg";
-// import seventeen from "../../../assetsFromTest/17.jpg";
-// import eightteen from "../../../assetsFromTest/18.jpg";
-// import nineteen from "../../../assetsFromTest/19.jpg";
-// import twenty from "../../../assetsFromTest/20.jpg";
+import one from "../../Assets/assetsFromTest/1.png";
+import two from "../../Assets/assetsFromTest/2.png";
+import three from "../../Assets/assetsFromTest/3.png";
+import four from "../../Assets/assetsFromTest/4.png";
+import five from "../../Assets/assetsFromTest/5.png";
+import six from "../../Assets/assetsFromTest/6.png";
+import seven from "../../Assets/assetsFromTest/7.png";
+import eight from "../../Assets/assetsFromTest/8.png";
+import nine from "../../Assets/assetsFromTest/9.png";
+import ten from "../../Assets/assetsFromTest/10.png";
+import eleven from "../../Assets/assetsFromTest/11.png";
+import twelve from "../../Assets/assetsFromTest/12.jpg";
+import threeteen from "../../Assets/assetsFromTest/13.jpg";
+import fourteen from "../../Assets/assetsFromTest/14.jpg";
+import fiveteen from "../../Assets/assetsFromTest/15.jpg";
+import sixteen from "../../Assets/assetsFromTest/16.jpg";
+import seventeen from "../../Assets/assetsFromTest/17.jpg";
+import eightteen from "../../Assets/assetsFromTest/18.jpg";
+import nineteen from "../../Assets/assetsFromTest/19.jpg";
+import twenty from "../../Assets/assetsFromTest/20.jpg";
 
 import "./Test.css";
-
-function Test (props) {
+export default function Test() {
 	const questions = [
 		{
 			questionText:
@@ -294,9 +293,8 @@ function Test (props) {
 				},
 				{ answerText: "Запрещено.", isCorrect: false },
 			],
-		},
+		}
 	];
-
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [score, setScore] = useState(0);
 	const [showScore, setShowScore] = useState(false);
@@ -320,31 +318,28 @@ function Test (props) {
 
 	const porcentage = Math.round((currentQuestion / questions.length) * 100);
 	console.log(porcentage);
-
 	return (
 		<div className="test">
 			<div className="style__hover">
-				<p onClick={props.handelClick} className="btn_close">
-					&times;
-				</p>
-
 				{showScore ? (
 					<div className="section__score">
-						{score > 17 ? (
-							<div>
+						{score > 18 ? (
+							<div className="header_score">
 								<h1>Поздравляем, Вы успешно прошли тест</h1>
 							</div>
 						) : (
-							<div>
+							<div className="header_score">
 								<h1>К сожалению, Вы не прошли тест</h1>
 							</div>
 						)}
-						<div>
+						<div className="answer">
 							<p>
 								Правельных ответов {score} из {questions.length}
 							</p>
 						</div>
-						<button onClick={refresh}>Повторить</button>
+						<div className="button">
+							<button onClick={refresh}>Повторить</button>
+						</div>
 					</div>
 				) : (
 					<div className="Contant_all">
@@ -358,7 +353,7 @@ function Test (props) {
 							<span>Вопрос {currentQuestion + 1}</span>/{" "}
 							{questions.length}
 						</div>
-						<div>
+						<div className="red">
 							<h1>{questions[currentQuestion].questionText}</h1>
 						</div>
 						<div className="answer__section">
@@ -388,5 +383,4 @@ function Test (props) {
 			</div>
 		</div>
 	);
-};
-export default Test;
+}

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 // import Modal from "../../../Modal/Modal";
 import Modal from "../../../../Modal/Modal";
 import modalWindowThree from '../../../../Assets/png/manual.png'
-import "./ImageBook.css";
 function ImageBook() {
 	const [modalActive, setModalActive] = useState(false);
 	return (

@@ -1,12 +1,13 @@
 .modal_window {
-	width: 80vw;
-	height: 76vh;
+	width: 90vw;
+	height: 90vh;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	border-radius: 15px;
 }
 .modal_window img {
-	width: 40%;
+	width: 35vw;
 	height: 70vh;
 }
 .modal_right {
